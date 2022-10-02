@@ -1,0 +1,75 @@
+
+
+
+/* z-index */
+.z0 {
+    z-index: 0;
+}
+
+.z1 {
+    z-index: 1;
+}
+
+.z2 {
+    z-index: 2;
+}
+
+.z3 {
+    z-index: 3;
+}
+
+.p2{
+    font-family: 'Prompt', sans-serif;
+}
+
+.p3 {
+    font-family: Tahoma, Verdana, sans-serif;
+    font-size:smaller;
+}
+/* Header*/
+.margen{
+    margin: 20%;
+}
+
+.c-btn{
+    background-color: rgb(130, 204, 81);
+}
+
+.c-art{
+    background-color: rgb(60, 60,60);
+}
+
+/* Main */
+.banner {
+    height: 85vh;
+    background-image: url(/imagenes/ba3.jpg);
+    background-color: rgb(60, 60,60);
+    background-blend-mode: soft-light;
+    
+    background-size: cover;
+    background-position: center;
+}
+
+.banner>img {
+    height: 95%;
+    width: 100%;
+    object-fit: cover;
+    
+}
+
+.bgd-footer{
+    background-color: rgb(12, 72, 92);
+
+}
+
+/*.card-img-overlay {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    padding: var(--bs-card-img-overlay-padding);
+    border-radius: var(--bs-card-inner-border-radius);
+}
+*/
+
