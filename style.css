@@ -74,7 +74,7 @@
 .banner {
     display: flex;
     flex-direction: column;
-    background-image: url('/imagenes/ba3.jpg');
+    background-image: url('imagenes/ba3.png');
     height: 85vh;
     background-color: rgb(60, 60,60);
     background-blend-mode: soft-light;
@@ -119,7 +119,7 @@ header>nav>ul>li>a:hover{
 }
 
 .imagen{
-    background-image: url('./imagenes/ba2.jpg');
+    background-image: url('imagenes/honolulu.png');
     background-size: cover;
     background-position: center;
     width: 50%;
