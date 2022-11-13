@@ -16,11 +16,11 @@
 <body>
     <header>
         <div>
-            <li><img class="header-img" src="imagenes/codoacodo.png"  style="width: 75px" alt="logo-cac"></li>
+            <li><img class="header-img" src="./imagenes/codoacodo.png"  style="width: 75px" alt="logo-cac"href="index.html"></li>
             <li><a class="header-link-img" href="index.html">Conf Bs As</a></li>
         </div>
         <nav>
-            <ul>
+            <ul >
                 <li><a  aria-current="page" href="index.html">La Conferencia</a></li>
                 <li><a  href="#oradores">Los Oradores</a></li>
                 <li><a  href="#publicidad">El lugar y la fecha</a></li>
@@ -35,8 +35,8 @@
         <section>
             <div class="banner">
                 <div>
-                    <p class=" fs-1 ">Conf Bs As</p>
-                    <p class="">Buenos Aires llega por primera vez a Argentina. Un evento para compartir con nuestra comunidad el conocimiento y experiencia de los expertos que están creando el futuro de internet. Ven a conocer los miembros del evento, a otros estudiantes de Codo a Codo y oradores de primer nivel que tenemos para ti. Te esperamos!</p>
+                    <p class="p4 fs-1 ">Conf Bs As</p>
+                    <p class="p2">Buenos Aires llega por primera vez a Argentina. Un evento para compartir con nuestra comunidad el conocimiento y experiencia de los expertos que están creando el futuro de internet. Ven a conocer los miembros del evento, a otros estudiantes de Codo a Codo y oradores de primer nivel que tenemos para ti. Te esperamos!</p>
                 </div>
                 <div class="buton">
                     <a type="button" href="#convOradoador" class="btn btn-outline-light " data-bs-toggle="button" autocomplete="off">Quiero ser orador</a>
@@ -56,7 +56,7 @@
             <div class="trio-cards">
             <div  class="col-sm-3">
                 <div class="card">
-                    <img src="imagenes/steve.png" class="card-img-top h-100" alt="card-img-top">
+                    <img src="/imagenes/steve.jpg" class="card-img-top h-100" alt="card-img-top">
                     <div class="card-body">
                     <span class="badge bg-warning text-dark"><small>JavaScrip</small></span>
                     <span class="badge bg-info text-light"><small>React</small></span>
@@ -67,7 +67,7 @@
             </div>
             <div  class="col-sm-3">
                 <div class="card">
-                    <img src="imagenes/bill.png"  class="card-img-top h-100"  alt="card-img-top">
+                    <img src="/imagenes/bill.jpg"  class="card-img-top h-100"  alt="card-img-top">
                     <div class="card-body">
                     <span class="badge bg-warning text-dark"><small>JavaScrip</small></span>
                     <span class="badge bg-info text-light"><small>React</small></span>
@@ -79,7 +79,7 @@
             </div>
             <div  class="col-sm-3">
                 <div class="card">
-                    <img src="imagenes/ada.png" class="card-img-top h-100" alt="card-img-top">
+                    <img src="/imagenes/ada.jpeg" class="card-img-top h-100" alt="card-img-top">
                     <div class="card-body">
                     <span class="badge bg-secondary text-light"><small>Negocios</small> </span>
                     <span class="badge bg-danger text-light"><small>Startups</small> </span>
@@ -92,13 +92,16 @@
         </div>
         </section>
         <!--BS AS OCTUBRE-->
+        <div class="imagen"></div>
         <aside>
-            <div class="publicidad" id="publicidad">
+            <div  class="publicidad" id="publicidad">
                 <div class="imagen"></div>
-                <div class="texto-publicidad">
-                    <p class="fs-4 fw-bolder text-light">Bs As - Octubre</p>
-                    <p class="text-light" >Buenos Aires es la provincia y localidad más grande del estado de Argentina, en los Estados Unidos. Honolulu es la más sureña de entre las principales cuidades estadounidenses. Aunque el nombre de Honolulu se refiere al área urbana en la costa sureste de la isla de Oahu, la ciudad y el condado de Honolulu han formado una ciudad-condado consolidada que cubre toda la ciudad (aproximadamente 600 km2 de supercifie).</p>
-                    <button type="button" class="btn btn-outline-light float-right" data-bs-toggle="button" autocomplete="off">Conocé más</button>
+                <div class="col-6 c-art texto-publicidad">
+                    <div class="container py-3">
+                        <p class="fs-4 fw-bolder p4">Bs As - Octubre</p>
+                        <p class="card-text p3 fst-italic">Buenos Aires es la provincia y localidad más grande del estado de Argentina, en los Estados Unidos. Honolulu es la más sureña de entre las principales cuidades estadounidenses. Aunque el nombre de Honolulu se refiere al área urbana en la costa sureste de la isla de Oahu, la ciudad y el condado de Honolulu han formado una ciudad-condado consolidada que cubre toda la ciudad (aproximadamente 600 km2 de supercifie).</p>
+                        <button type="button" class="btn btn-outline-light float-right" data-bs-toggle="button" autocomplete="off">Conocé más</button>
+                    </div>
                 </div>
             </div>
         </aside>        
@@ -114,10 +117,10 @@
         <seccion class="formulario" id="convOradoador">
             <form action="">
                 <div class="form-name-surname">
-                    <input type="text" placeholder="Nombre" aria-label="Nombre">
-                    <input type="text" placeholder="Apellido" aria-label="Apellido">
+                    <input type="text" class="form-control" placeholder="Nombre" aria-label="Nombre">
+                    <input type="text" class="form-control" placeholder="Apellido" aria-label="Apellido">
                 </div>
-                <textarea name="" id="" placeholder="Sobre qué quieres hablar?"  cols="30" rows="10" ></textarea>
+                <textarea name="" id="" class="form-control" placeholder="Sobre qué quieres hablar?"  cols="30" rows="10" ></textarea>
                     
                 <p class="text-muted"><small>Recuerda incluir un título para tu charla</small> </p>
                 <div class="boton-enviar-form"><button class="btn c-btn" type="button">Enviar</button></div>
@@ -125,7 +128,7 @@
         </seccion>
     </main>
     <footer>
-            <ul>
+            <ul class="mb-0">
                 <li><a  href="#">Preguntas  Frecuentes</a></li>
                 <li><a href="#">Contáctanos</a></li>
                 <li><a href="#">Prensa</a></li>
