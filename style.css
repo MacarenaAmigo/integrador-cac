@@ -199,6 +199,64 @@ footer a{
 
 /* Responsive */
 
+@media screen and (min-width:1501px) {
+    header{
+        display: flex;
+        justify-content: space-between;
+        background-color: rgb(60, 60,60);
+        padding: 12px 25px;
+        align-items: baseline;
+    }
+    header>div{
+        display: flex;
+        list-style-type: none;
+    }
+    .header-link-img{
+        color:whitesmoke;
+        text-decoration: none;
+        font-size: xx-large;
+    }
+    header>nav>ul{
+        display: flex;
+        list-style-type: none;
+        color: whitesmoke;
+        font-size: xx-large;
+        gap: 10px;
+    }
+    .publicidad .texto-publicidad{
+        height: 100%;
+        width: 50%;
+        background-color:rgb(60, 60,60);
+        font-size: xx-large;
+        color: whitesmoke;
+    }
+    .card-body{
+        font-size: x-large;
+    }
+    .lideres{
+        font-size : x-large;
+    }
+    footer ul {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        background-color: rgb(60, 60,60);
+        font-size: xx-large;
+    }
+    .form-control{
+        font-size: x-large;
+    }
+    .formulario{
+        font-size: x-large;
+    }
+
+    .text-uppercase{
+        font-size: xx-large;
+    }
+    .banner>div{
+        font-size: xx-large;
+    }
+}
 @media screen and (max-width:1500px) {
     header{
         display: flex;
@@ -266,7 +324,6 @@ footer a{
     }
     
 }
-
 @media screen and (max-width:500px) {
     header{
         display: flex;
